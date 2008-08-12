@@ -1,0 +1,56 @@
+stroq
+------------------------------------------
+StroQ is an addictive puzzle game where you have to flip white and black 
+tiles in order to form horizontal lines of the same color in a single 
+stroke of your mouse.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  qt3-3.3.8-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-2
+  cygport-0.3.13-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://stroq.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/stroq/
+
+-------------------------------------------
+
+Build instructions:
+  unpack stroq-0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./stroq-0.2-X.cygport all
+
+This will create:
+  /usr/src/stroq-0.2-X-src.tar.bz2
+  /usr/src/stroq-0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/stroq.exe
+  /usr/share/doc/stroq-0.2/COPYING
+  /usr/share/doc/stroq-0.2/README
+  /usr/share/doc/stroq-0.2/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
