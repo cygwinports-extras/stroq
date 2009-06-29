@@ -1,5 +1,5 @@
 category: Games KDE
-requires: cygwin qt3
+requires: qt3
 sdesc: "Qt Polarium game"
 ldesc: "StroQ is an addictive puzzle game where you have to flip white 
 and black tiles in order to form horizontal lines of the same color in a 
