@@ -1,0 +1,33 @@
+inherit qt3-qmake
+
+NAME="stroq"
+VERSION=0.2
+RELEASE=2
+CATEGORY="Games"
+SUMMARY="Qt Polarium game"
+DESCRIPTION="StroQ is an addictive puzzle game where you have to flip white
+and black tiles in order to form horizontal lines of the same color in a
+single stroke of your mouse."
+HOMEPAGE="http://stroq.sourceforge.net/"
+SRC_URI="mirror://sourceforge/stroq/stroq-${VERSION}.tar.bz2"
+PATCH_URI="0.2-gcc4.patch"
+
+DIFF_EXCLUDES="*.pro"
+
+src_compile() {
+	cd ${S}
+	${QT3_QMAKE} -project
+	mv stroq-${VERSION}.pro StroQ.pro
+	lndirs
+
+	cd ${B}
+	cygqmake3
+	cygmake
+}
+
+src_install() {
+	cd ${B}
+	dobin StroQ.exe
+	newicon images/classic/icon.xpm stroq.xpm
+	make_desktop_entry StroQ "StroQ" stroq "Game;LogicGame;Qt"
+}

@@ -1,0 +1,208 @@
+--- origsrc/stroq-0.2/images/classic/background.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classic/background.xpm	2013-07-21 13:34:08.406351100 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classic_background[] = {
++static const char *classic_background[] = {
+ /* columns rows colors chars-per-pixel */
+ "1 1 1 1",
+ "  c gray100",
+--- origsrc/stroq-0.2/images/classic/black.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classic/black.xpm	2013-07-21 13:34:11.846547900 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classic_blacksquare[] = {
++static const char *classic_blacksquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 236 2",
+ "   c black",
+--- origsrc/stroq-0.2/images/classic/border.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classic/border.xpm	2013-07-21 13:34:16.700825500 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classic_bordersquare[] = {
++static const char *classic_bordersquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "48 48 211 2",
+ "   c #7B9C6E",
+--- origsrc/stroq-0.2/images/classic/icon.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classic/icon.xpm	2013-07-21 13:34:19.093962400 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classic_icon[] = {
++static const char *classic_icon[] = {
+ /* columns rows colors chars-per-pixel */
+ "12 12 70 1",
+ "  c #D3B283",
+--- origsrc/stroq-0.2/images/classic/white.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classic/white.xpm	2013-07-21 13:34:22.316146700 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classic_whitesquare[] = {
++static const char *classic_whitesquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 37 1",
+ "  c #D3B283",
+--- origsrc/stroq-0.2/images/classicsquare/background.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classicsquare/background.xpm	2013-07-21 13:34:24.656280600 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classicsquare_background[] = {
++static const char *classicsquare_background[] = {
+ /* columns rows colors chars-per-pixel */
+ "512 384 77 1",
+ "  c #4C4C4C",
+--- origsrc/stroq-0.2/images/classicsquare/black.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classicsquare/black.xpm	2013-07-21 13:34:28.176481900 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classicsquare_blacksquare[] = {
++static const char *classicsquare_blacksquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 44 1",
+ "  c #020202",
+--- origsrc/stroq-0.2/images/classicsquare/border.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classicsquare/border.xpm	2013-07-21 13:34:30.902637800 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classicsquare_bordersquare[] = {
++static const char *classicsquare_bordersquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 28 1",
+ "  c #EC9E24",
+--- origsrc/stroq-0.2/images/classicsquare/icon.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classicsquare/icon.xpm	2013-07-21 13:34:33.381779600 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classicsquare_icon[] = {
++static const char *classicsquare_icon[] = {
+ /* columns rows colors chars-per-pixel */
+ "12 12 43 1",
+ "  c #EC9E24",
+--- origsrc/stroq-0.2/images/classicsquare/white.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/classicsquare/white.xpm	2013-07-21 13:34:35.639908800 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *classicsquare_whitesquare[] = {
++static const char *classicsquare_whitesquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 123 2",
+ "   c #DFDFDF",
+--- origsrc/stroq-0.2/images/misc/aboutimage.xpm	2005-05-16 09:15:06.000000000 -0500
++++ src/stroq-0.2/images/misc/aboutimage.xpm	2013-07-21 13:34:38.361064400 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *aboutimage_xpm[] = {
++static const char *aboutimage_xpm[] = {
+ /* columns rows colors chars-per-pixel */
+ "128 128 257 2",
+ "   c #00000000",
+--- origsrc/stroq-0.2/images/misc/next.xpm	2005-05-16 14:52:49.000000000 -0500
++++ src/stroq-0.2/images/misc/next.xpm	2013-07-21 13:33:59.638849600 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *nextButtonPixmap[] = {
++static const char *nextButtonPixmap[] = {
+ /* columns rows colors chars-per-pixel */
+ "16 16 30 1",
+ "  c #FFB83E00",
+--- origsrc/stroq-0.2/images/oceanbarbeq/background.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/oceanbarbeq/background.xpm	2013-07-21 13:34:43.376351300 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *oceanbarbeq_background[] = {
++static const char *oceanbarbeq_background[] = {
+ /* columns rows colors chars-per-pixel */
+ "1 1 1 1",
+ "  c gray100",
+--- origsrc/stroq-0.2/images/oceanbarbeq/black.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/oceanbarbeq/black.xpm	2013-07-21 13:34:45.790489400 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *oceanbarbeq_blacksquare[] = {
++static const char *oceanbarbeq_blacksquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 229 2",
+ "   c #5F2D14",
+--- origsrc/stroq-0.2/images/oceanbarbeq/border.xpm	2005-05-16 14:52:49.000000000 -0500
++++ src/stroq-0.2/images/oceanbarbeq/border.xpm	2013-07-21 13:34:48.382637600 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *oceanbarbeq_bordersquare[] = {
++static const char *oceanbarbeq_bordersquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "48 48 60 1",
+ "  c #3CCFF5",
+--- origsrc/stroq-0.2/images/oceanbarbeq/icon.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/oceanbarbeq/icon.xpm	2013-07-21 13:34:50.775774500 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *oceanbarbeq_icon[] = {
++static const char *oceanbarbeq_icon[] = {
+ /* columns rows colors chars-per-pixel */
+ "12 12 76 1",
+ "  c black",
+--- origsrc/stroq-0.2/images/oceanbarbeq/white.xpm	2005-05-11 07:20:09.000000000 -0500
++++ src/stroq-0.2/images/oceanbarbeq/white.xpm	2013-07-21 13:34:53.137909600 -0500
+@@ -1,5 +1,5 @@
+ /* XPM */
+-static char *oceanbarbeq_whitesquare[] = {
++static const char *oceanbarbeq_whitesquare[] = {
+ /* columns rows colors chars-per-pixel */
+ "50 50 232 2",
+ "   c #000000",
+--- origsrc/stroq-0.2/playarea.cpp	2005-05-18 02:43:16.000000000 -0500
++++ src/stroq-0.2/playarea.cpp	2013-07-21 13:35:51.287235600 -0500
+@@ -34,6 +34,7 @@
+ #include <qpixmap.h>
+ #include <qsettings.h>
+ #include <qfile.h>
++#include <cmath>
+ #include <vector>
+ 
+ #include "playarea.h"
+@@ -373,9 +374,9 @@ void PlayArea::selectPlaySquare(PlaySqua
+ 			PlaySquare* last = m_vStroke[m_vStroke.size()-1];
+ 			if (getAlignment(playSquare, last) == NOT_ALIGNED)
+ 				return;
+-			if (!(abs(playSquare->getGridPos().x() -
++			if (!(std::abs(playSquare->getGridPos().x() -
+ 				 last->getGridPos().x()) == 1
+-			  || abs(playSquare->getGridPos().y() -
++			  || std::abs(playSquare->getGridPos().y() -
+ 				 last->getGridPos().y()) == 1))
+ 				return;
+ 		}
+--- origsrc/stroq-0.2/playsquare.h	2005-05-11 17:51:56.000000000 -0500
++++ src/stroq-0.2/playsquare.h	2013-07-21 13:32:47.680733900 -0500
+@@ -146,7 +146,7 @@ public:
+ 	/**
+ 	 * Returns the index of the currently loaded theme
+ 	 */
+-	static int PlaySquare::getCurrentTheme();
++	static int getCurrentTheme();
+ 	
+ 	/**
+ 	 * Changes the current theme
+--- origsrc/stroq-0.2/puzzle.h	2005-05-06 12:41:22.000000000 -0500
++++ src/stroq-0.2/puzzle.h	2013-07-21 13:33:05.490752500 -0500
+@@ -79,7 +79,7 @@ public:
+ 	 * Builds a puzzle made of PlaySquares given a code. See previous
+ 	 * method.
+ 	 */
+-	Puzzle::Puzzle(QString code, QCanvas *canvas);
++	Puzzle(QString code, QCanvas *canvas);
+ 	
+ 	/**
+ 	 * Class destructor
+--- origsrc/stroq-0.2/selectpuzzledialog.h	2005-05-16 14:52:49.000000000 -0500
++++ src/stroq-0.2/selectpuzzledialog.h	2013-07-21 13:33:30.178164600 -0500
+@@ -67,7 +67,7 @@ public:
+ 	
+ 	// The following two methods are used to get the results of the dialog
+ 	QString getPuzzleCode();
+-	int SelectPuzzleDialog::getPuzzleNumber();
++	int getPuzzleNumber();
+ 
+ signals:
+ 	/**
